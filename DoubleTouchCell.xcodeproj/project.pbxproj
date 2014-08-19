@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030E949419A40EAA00249BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E949319A40EAA00249BED /* Foundation.framework */; };
+		030E949619A40EAA00249BED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E949519A40EAA00249BED /* CoreGraphics.framework */; };
+		030E949819A40EAA00249BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E949719A40EAA00249BED /* UIKit.framework */; };
+		030E949E19A40EAA00249BED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030E949C19A40EAA00249BED /* InfoPlist.strings */; };
+		030E94A019A40EAA00249BED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030E949F19A40EAA00249BED /* main.m */; };
+		030E94A419A40EAA00249BED /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030E94A319A40EAA00249BED /* SAMAppDelegate.m */; };
+		030E94A719A40EAA00249BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030E94A519A40EAA00249BED /* Main.storyboard */; };
+		030E94AA19A40EAA00249BED /* SAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030E94A919A40EAA00249BED /* SAMViewController.m */; };
+		030E94AC19A40EAA00249BED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030E94AB19A40EAA00249BED /* Images.xcassets */; };
+		030E94B319A40EAA00249BED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E94B219A40EAA00249BED /* XCTest.framework */; };
+		030E94B419A40EAA00249BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E949319A40EAA00249BED /* Foundation.framework */; };
+		030E94B519A40EAA00249BED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030E949719A40EAA00249BED /* UIKit.framework */; };
+		030E94BD19A40EAA00249BED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030E94BB19A40EAA00249BED /* InfoPlist.strings */; };
+		030E94BF19A40EAA00249BED /* DoubleTouchCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030E94BE19A40EAA00249BED /* DoubleTouchCellTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030E94B619A40EAA00249BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030E948819A40EAA00249BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030E948F19A40EAA00249BED;
+			remoteInfo = DoubleTouchCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030E949019A40EAA00249BED /* DoubleTouchCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleTouchCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030E949319A40EAA00249BED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		030E949519A40EAA00249BED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		030E949719A40EAA00249BED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		030E949B19A40EAA00249BED /* DoubleTouchCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleTouchCell-Info.plist"; sourceTree = "<group>"; };
+		030E949D19A40EAA00249BED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030E949F19A40EAA00249BED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030E94A119A40EAA00249BED /* DoubleTouchCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleTouchCell-Prefix.pch"; sourceTree = "<group>"; };
+		030E94A219A40EAA00249BED /* SAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
+		030E94A319A40EAA00249BED /* SAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
+		030E94A619A40EAA00249BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030E94A819A40EAA00249BED /* SAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMViewController.h; sourceTree = "<group>"; };
+		030E94A919A40EAA00249BED /* SAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMViewController.m; sourceTree = "<group>"; };
+		030E94AB19A40EAA00249BED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		030E94B119A40EAA00249BED /* DoubleTouchCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleTouchCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030E94B219A40EAA00249BED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		030E94BA19A40EAA00249BED /* DoubleTouchCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleTouchCellTests-Info.plist"; sourceTree = "<group>"; };
+		030E94BC19A40EAA00249BED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030E94BE19A40EAA00249BED /* DoubleTouchCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleTouchCellTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030E948D19A40EAA00249BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E949619A40EAA00249BED /* CoreGraphics.framework in Frameworks */,
+				030E949819A40EAA00249BED /* UIKit.framework in Frameworks */,
+				030E949419A40EAA00249BED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030E94AE19A40EAA00249BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E94B319A40EAA00249BED /* XCTest.framework in Frameworks */,
+				030E94B519A40EAA00249BED /* UIKit.framework in Frameworks */,
+				030E94B419A40EAA00249BED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030E948719A40EAA00249BED = {
+			isa = PBXGroup;
+			children = (
+				030E949919A40EAA00249BED /* DoubleTouchCell */,
+				030E94B819A40EAA00249BED /* DoubleTouchCellTests */,
+				030E949219A40EAA00249BED /* Frameworks */,
+				030E949119A40EAA00249BED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030E949119A40EAA00249BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030E949019A40EAA00249BED /* DoubleTouchCell.app */,
+				030E94B119A40EAA00249BED /* DoubleTouchCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030E949219A40EAA00249BED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030E949319A40EAA00249BED /* Foundation.framework */,
+				030E949519A40EAA00249BED /* CoreGraphics.framework */,
+				030E949719A40EAA00249BED /* UIKit.framework */,
+				030E94B219A40EAA00249BED /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		030E949919A40EAA00249BED /* DoubleTouchCell */ = {
+			isa = PBXGroup;
+			children = (
+				030E94A219A40EAA00249BED /* SAMAppDelegate.h */,
+				030E94A319A40EAA00249BED /* SAMAppDelegate.m */,
+				030E94A519A40EAA00249BED /* Main.storyboard */,
+				030E94A819A40EAA00249BED /* SAMViewController.h */,
+				030E94A919A40EAA00249BED /* SAMViewController.m */,
+				030E94AB19A40EAA00249BED /* Images.xcassets */,
+				030E949A19A40EAA00249BED /* Supporting Files */,
+			);
+			path = DoubleTouchCell;
+			sourceTree = "<group>";
+		};
+		030E949A19A40EAA00249BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030E949B19A40EAA00249BED /* DoubleTouchCell-Info.plist */,
+				030E949C19A40EAA00249BED /* InfoPlist.strings */,
+				030E949F19A40EAA00249BED /* main.m */,
+				030E94A119A40EAA00249BED /* DoubleTouchCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		030E94B819A40EAA00249BED /* DoubleTouchCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				030E94BE19A40EAA00249BED /* DoubleTouchCellTests.m */,
+				030E94B919A40EAA00249BED /* Supporting Files */,
+			);
+			path = DoubleTouchCellTests;
+			sourceTree = "<group>";
+		};
+		030E94B919A40EAA00249BED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030E94BA19A40EAA00249BED /* DoubleTouchCellTests-Info.plist */,
+				030E94BB19A40EAA00249BED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030E948F19A40EAA00249BED /* DoubleTouchCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030E94C219A40EAA00249BED /* Build configuration list for PBXNativeTarget "DoubleTouchCell" */;
+			buildPhases = (
+				030E948C19A40EAA00249BED /* Sources */,
+				030E948D19A40EAA00249BED /* Frameworks */,
+				030E948E19A40EAA00249BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleTouchCell;
+			productName = DoubleTouchCell;
+			productReference = 030E949019A40EAA00249BED /* DoubleTouchCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030E94B019A40EAA00249BED /* DoubleTouchCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030E94C519A40EAA00249BED /* Build configuration list for PBXNativeTarget "DoubleTouchCellTests" */;
+			buildPhases = (
+				030E94AD19A40EAA00249BED /* Sources */,
+				030E94AE19A40EAA00249BED /* Frameworks */,
+				030E94AF19A40EAA00249BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030E94B719A40EAA00249BED /* PBXTargetDependency */,
+			);
+			name = DoubleTouchCellTests;
+			productName = DoubleTouchCellTests;
+			productReference = 030E94B119A40EAA00249BED /* DoubleTouchCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030E948819A40EAA00249BED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joshua Wood";
+				TargetAttributes = {
+					030E94B019A40EAA00249BED = {
+						TestTargetID = 030E948F19A40EAA00249BED;
+					};
+				};
+			};
+			buildConfigurationList = 030E948B19A40EAA00249BED /* Build configuration list for PBXProject "DoubleTouchCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030E948719A40EAA00249BED;
+			productRefGroup = 030E949119A40EAA00249BED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030E948F19A40EAA00249BED /* DoubleTouchCell */,
+				030E94B019A40EAA00249BED /* DoubleTouchCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030E948E19A40EAA00249BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E94AC19A40EAA00249BED /* Images.xcassets in Resources */,
+				030E949E19A40EAA00249BED /* InfoPlist.strings in Resources */,
+				030E94A719A40EAA00249BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030E94AF19A40EAA00249BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E94BD19A40EAA00249BED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030E948C19A40EAA00249BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E94A419A40EAA00249BED /* SAMAppDelegate.m in Sources */,
+				030E94AA19A40EAA00249BED /* SAMViewController.m in Sources */,
+				030E94A019A40EAA00249BED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030E94AD19A40EAA00249BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E94BF19A40EAA00249BED /* DoubleTouchCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030E94B719A40EAA00249BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030E948F19A40EAA00249BED /* DoubleTouchCell */;
+			targetProxy = 030E94B619A40EAA00249BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030E949C19A40EAA00249BED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030E949D19A40EAA00249BED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		030E94A519A40EAA00249BED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030E94A619A40EAA00249BED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030E94BB19A40EAA00249BED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030E94BC19A40EAA00249BED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030E94C019A40EAA00249BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		030E94C119A40EAA00249BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030E94C319A40EAA00249BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchCell/DoubleTouchCell-Prefix.pch";
+				INFOPLIST_FILE = "DoubleTouchCell/DoubleTouchCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		030E94C419A40EAA00249BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchCell/DoubleTouchCell-Prefix.pch";
+				INFOPLIST_FILE = "DoubleTouchCell/DoubleTouchCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		030E94C619A40EAA00249BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleTouchCell.app/DoubleTouchCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchCell/DoubleTouchCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoubleTouchCellTests/DoubleTouchCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		030E94C719A40EAA00249BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleTouchCell.app/DoubleTouchCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleTouchCell/DoubleTouchCell-Prefix.pch";
+				INFOPLIST_FILE = "DoubleTouchCellTests/DoubleTouchCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030E948B19A40EAA00249BED /* Build configuration list for PBXProject "DoubleTouchCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030E94C019A40EAA00249BED /* Debug */,
+				030E94C119A40EAA00249BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030E94C219A40EAA00249BED /* Build configuration list for PBXNativeTarget "DoubleTouchCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030E94C319A40EAA00249BED /* Debug */,
+				030E94C419A40EAA00249BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030E94C519A40EAA00249BED /* Build configuration list for PBXNativeTarget "DoubleTouchCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030E94C619A40EAA00249BED /* Debug */,
+				030E94C719A40EAA00249BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030E948819A40EAA00249BED /* Project object */;
+}
