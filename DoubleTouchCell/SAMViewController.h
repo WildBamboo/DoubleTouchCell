@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAMViewController : UIViewController
+@interface SAMViewController : UITableViewController
 
 @end
